@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Sitesi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar start-->
+    <div class="navbar">
+      <div class="navbar-wrapper">
+        <div class="logo-wrapper">
+          <h1 class="logo">MERİMOVİE</h1>
+        </div>
+        <div class="menu-contanier">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Ana Sayfa</li>
+            <li class="menu-list-item">Fimler</li>
+            <li class="menu-list-item">Diziler</li>
+            <li class="menu-list-item">Listem</li>
+            <li class="menu-list-item">Popüler</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img class="profil-picture" src="resimler/profil.jpg" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">Hesabım</span>
+            <i class="bi bi-caret-down-fill"></i>
+          </div>
+          <div class="toggle">
+            <i class="bi bi-moon-stars-fill toggle-icon"></i>
+            <i class="bi bi-brightness-high-fill toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--navbar end-->
+
+    <!--sidebar start-->
+    <div class="sidebar">
+      <i class="bi bi-search sidebar-icon"></i>
+      <i class="bi bi-house-door-fill sidebar-icon"></i>
+      <i class="bi bi-people-fill sidebar-icon"></i>
+      <i class="bi bi-bookmarks-fill sidebar-icon"></i>
+      <i class="bi bi-hourglass-top sidebar-icon"></i>
+      <i class="bi bi-cart-fill sidebar-icon"></i>
+      <i class="bi bi-gear-fill sidebar-icon"></i>
+    </div>
+    <!--sidebar end-->
+
+    <!--content start-->
+    <!--featured content start-->
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="featured-content">
+          <!--<img class="featured-title" src="alt" /> -->
+
+          <p class="featured-desc">
+            Büyümek zor bir süreçtir, durum, babası San Francisco'da yeni bir
+            işe başladığında, Ortabatı'daki yaşamından ayrılmak zorunda kalan
+            Riley için de farklı değil. Hepimiz gibi Riley'de, duyguları
+            tarafından yönlendiriliyor, Neşe, Korku, Öfke, Tiksinti ve Üzüntü.
+            Duygular, Riley'nin beyninin içinde ki Kontrol Merkezinde yaşıyor ve
+            oradan, onun günlük hayatı için tavsiyelerde bulunuyorlar. Riley'nin
+            en temel ve önemli duygusu Neşe, herşeyin olumlu olmasını, yeni bir
+            şehir, yeni bir ev ve yeni bir okulda, çatışan duyguları en iyi
+            şekilde yönetmek için çabalar.
+          </p>
+          <div class="featured-buttons">
+            <button class="play-button">
+              <i class="bi bi-play-circle"></i>
+              Oynat
+            </button>
+            <button class="info-button">
+              <i class="bi bi-info-circle"></i>
+              Daha Fazla Bilgi
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--featured content end-->
+
+      <!--filter start-->
+      <div class="movie-list-filter">
+        <select>
+          <option>Aksiyon</option>
+          <option>Animasyon</option>
+          <option>Belgesel</option>
+          <option>Komedi</option>
+          <option>Bilim Kurgu</option>
+        </select>
+      </div>
+      <!--filter end-->
+
+      <!--movie list start-->
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Popüler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/harry1.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Harry Potter Ve Felsefe Taşı</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/harry2.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Harry Potter Ve Sırlar Odası</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/harry3.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Harry Potter Ve Azkaban Tutsağı</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img
+                class="movie-img"
+                src="resimler/Harry_Potter_and_the_Goblet_of_Fire_(film,_2005).jpg"
+                alt=""
+              />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Harry Potter Ve Ateş Kadehi</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img
+                class="movie-img"
+                src="resimler/Harry_Potter_and_the_Order_of_the_Phoenix_(film,_2007).jpg"
+                alt=""
+              />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Harry Potter Ve Zümrüdüanka Yoldaşlığı</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img
+                class="movie-img"
+                src="resimler/Harry_Potter_and_the_Half-Blood_Prince_(film,_2009).jpg"
+                alt=""
+              />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Harry Potter Ve Melez Prens</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img
+                class="movie-img"
+                src="resimler/Harry_Potter_and_the_Deathly_Hallows_Part_1_(film,_2010).jpg"
+                alt=""
+              />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Harry Potter Ve Ölüm Yadigarları</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Gündemdekiler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/buzdevri3.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Buz Devri 3-Dinazorların Şafağı</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/buz devri 4.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Buz Devri 4-Kıtalar Ayrılıyor</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img
+                class="movie-img"
+                src="resimler/güzel ve çirkin.jpg"
+                alt=""
+              />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Güzel Ve Çirkin</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/hobbit.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Hobbit</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/ye2.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Yüzüklerin Efendisi:Yüzük Kardeşliği</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/yeikikule.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Yüzüklerin Efendisi:İki Kule</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/ye1.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >Yüzüklerin Efendisi:Kralın Dönüşü</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Yeni Çıkanlar</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/avatar.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Avatar:Suyun Yolu</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/yıldızlararası.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Yıldızlararası</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/wall-e.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Wall-E</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/stitch.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Lilo Ve Stitch</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img
+                class="movie-img"
+                src="resimler/sevimli canavarlar.jpg"
+                alt=""
+              />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Sevimli Canavarlar</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-img" src="resimler/minions.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Minions</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img
+                class="movie-img"
+                src="resimler/Jurassic_World_-_afiş.jpg"
+                alt=""
+              />
+              <div class="movie-item-info">
+                <span class="movie-item-title">Jurassic World</span>
+                <div class="movie-item-buttons">
+                  <i class="bi bi-play-circle-fill"></i>
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  <i class="bi bi-hand-thumbs-down-fill"></i>
+                  <i class="bi bi-plus-circle-fill"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-chevron-right arrow"></i>
+        </div>
+      </div>
+
+      <!--movie list end-->
+    </div>
+
+    <!--content end-->
+    <script src="script.js"></script>
+  </body>
+</html>
